@@ -41,7 +41,7 @@ dependencyManagement {
 
 bootJar {
     enabled = true
-    mainClass = 'bg.coincraft.eureka.EurekaServerApplication'
+    mainClass = 'bg.coincraft.eurekaserver.EurekaServerApplication'
 }
 
 jar {
