@@ -28,9 +28,6 @@ configurations.all {
 dependencies {
     // Eureka Server
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
-
-    // Prometheus metrics
-    runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
 }
 
 dependencyManagement {
